@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/saran b soman/AndroidStudioProjects/Kiddies/app/src/main/res/layout/activity_animal1.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/saran b soman/AndroidStudioProjects/Kiddies/app/src/main/res/layout/activity_bird1.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/saran b soman/AndroidStudioProjects/Kiddies/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/saran b soman/AndroidStudioProjects/Kiddies/app/src/main/res/layout/activity_numbers.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/saran b soman/AndroidStudioProjects/Kiddies/app/src/main/res/layout/activity_settings.xml" value="0.144" />
+        <entry key="..\:/Users/saran b soman/AndroidStudioProjects/Kiddies/app/src/main/res/layout/activity_splash_screen.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/saran b soman/AndroidStudioProjects/Kiddies/app/src/main/res/layout/fragment_2.xml" value="0.11666666666666667" />
+        <entry key="..\:/Users/saran b soman/AndroidStudioProjects/Kiddies/app/src/main/res/layout/fragment_blank.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/saran b soman/AndroidStudioProjects/Kiddies/app/src/main/res/layout/numbers.xml" value="0.23229166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

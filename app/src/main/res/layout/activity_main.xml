@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/junglebg">
+    <androidx.cardview.widget.CardView
+        android:layout_width="370dp"
+        android:layout_height="213dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="70dp"
+        app:cardBackgroundColor="#AD7CB342"
+        app:cardElevation="50dp"
+        app:cardCornerRadius="30dp"
+        >
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/v"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="8dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <LinearLayout
+            android:id="@+id/SliderDots"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="200dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/settings"
+        android:layout_width="48dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="606dp"
+        android:layout_marginBottom="286dp"
+        android:clickable="true"
+        android:onClick="settingsView"
+        android:src="@drawable/setting"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/exit"
+        android:layout_width="48dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="302dp"
+        android:layout_marginEnd="615dp"
+        android:layout_marginBottom="38dp"
+        android:onClick="exit"
+        app:srcCompat="@drawable/exiticon"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</RelativeLayout>

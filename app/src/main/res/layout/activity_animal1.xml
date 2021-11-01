@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Animal1"
+    android:background="@drawable/maxresdefault">
+
+
+<!--    Dog image-->
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="324dp"
+        android:layout_height="218dp"
+        android:clickable="true"
+        android:onClick="animationDog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+<!--    Cat image-->
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="324dp"
+        android:layout_height="218dp"
+        android:clickable="true"
+        android:onClick="animationCat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/cat1"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+<!--    Cow image-->
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="324dp"
+        android:layout_height="218dp"
+        android:clickable="true"
+        android:onClick="animationCow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/cow"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+<!--    Dog text-->
+    <TextView
+        android:id="@+id/dog"
+        android:layout_width="137dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="D O G"
+        android:textColor="@android:color/background_light"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.939"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+<!--    Cat text-->
+    <TextView
+        android:id="@+id/cat"
+        android:layout_width="137dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="C A T"
+        android:textColor="@android:color/background_light"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.939"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+<!--    Cow text-->
+    <TextView
+        android:id="@+id/cow"
+        android:layout_width="137dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="C O W"
+        android:textColor="@android:color/background_light"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.939"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+<!--    Home btn-->
+    <ImageView
+        android:id="@+id/home2"
+        android:layout_width="48dp"
+        android:layout_height="56dp"
+        android:clickable="true"
+        android:onClick="home2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/hmbtn"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+<!--    previous btn-->
+    <ImageView
+        android:id="@+id/prev"
+        android:layout_width="48dp"
+        android:layout_height="58dp"
+        android:clickable="true"
+        android:onClick="previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/prebtn"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+<!--    next btn-->
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="48dp"
+        android:layout_height="58dp"
+        android:clickable="true"
+        android:onClick="next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.995"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/nxtbtn"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
